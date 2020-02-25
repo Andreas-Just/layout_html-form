@@ -1,15 +1,15 @@
-fieldset {
+.form__group {
   margin-bottom: 20px;
 }
 
-.blocks {
+.form__inner {
   margin-bottom: 10px;
 }
 
-.blocks:last-child {
+.form__inner:last-child {
   margin-bottom: 0;
 }
 
-input[data-qa][type="number"] {
+.form__number {
   width: 65px;
 }

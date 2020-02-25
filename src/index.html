@@ -13,34 +13,34 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="POST">
-      <fieldset>
+    <form class="form" action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="POST">
+      <fieldset class="form__group">
         <legend>Personal information</legend>
-        <div class="blocks">
+        <div class="form__inner">
           <label>
             Surname:
             <input type="text" name="surname" required autocomplete="off">
           </label>
         </div>
-        <div class="blocks">
+        <div class="form__inner">
           <label>
             Name:
             <input type="text" name="firstName" required autocomplete="off">
           </label>
         </div>
-        <div class="blocks">
+        <div class="form__inner">
           <label>
             How old are You?
-            <input type="number" name="age" value="12" data-qa="field-value" min="1">
+            <input class="form__number" type="number" name="age" value="12" data-qa="field-value" min="1">
           </label>
         </div>
-        <div class="blocks">
+        <div class="form__inner">
           <label>
             Full date of birthday:
             <input type="date" name="birthday">
           </label>
         </div>
-        <div class="blocks">
+        <div class="form__inner">
           <label>
             I accept the term of the agreement
             <input type="checkbox" name="accept-the-term">
@@ -48,15 +48,15 @@
         </div>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="form__group">
         <legend>Registration</legend>
-        <div class="blocks">
+        <div class="form__inner">
           <label>
             E-mail:
             <input type="email" name="email" placeholder="email@example.com" data-qa="field-placeholder" required>
           </label>
         </div>
-        <div class="blocks">
+        <div class="form__inner">
           <label>
             Password:
             <input type="password" name="password" minlength="8" maxlength="16" required>
@@ -64,9 +64,9 @@
         </div>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="form__group">
         <legend>An interesting fact about you!</legend>
-        <div class="blocks">
+        <div class="form__inner">
           <label>
             Do you love cats?
             <input type="radio" name="check-cat">Yes
@@ -76,19 +76,19 @@
           </label>
           </label>
         </div>
-        <div class="blocks">
+        <div class="form__inner">
           <label>
             What is your favorite color?
             <input type="color" value="#000" name="color">
           </label>
         </div>
-        <div class="blocks">
+        <div class="form__inner">
           <label>
             What time do you go to bed?
-            <input type="time" name="time" step="2">
+            <input type="time" name="time" step="1">
           </label>
         </div>
-        <div class="blocks">
+        <div class="form__inner">
           <label>
             What are your favorite brand of cars?
             <select name="cars" size="4">
@@ -99,7 +99,7 @@
             </select>
           </label>
         </div>
-        <div class="blocks">
+        <div class="form__inner">
           <label>
             How do you rate our work?
             <input type="range" min="0" max="100" step="1" value="0" name="range">
@@ -107,15 +107,15 @@
         </div>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="form__group">
         <legend>Additional info:</legend>
-        <div class="blocks">
+        <div class="form__inner">
           <label>
             Comments:
             <textarea type="textarea" rows="2" maxlength="250"></textarea>
           </label>
         </div>
-        <div class="blocks">
+        <div class="form__inner">
           <label>
             Would you recommend us?
             <select name="chose-Yes-or-No" required>
