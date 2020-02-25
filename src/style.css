@@ -9,3 +9,7 @@ fieldset {
 .blocks:last-child {
   margin-bottom: 0;
 }
+
+input[data-qa][type="number"] {
+  width: 65px;
+}
