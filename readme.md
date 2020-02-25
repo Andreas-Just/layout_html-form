@@ -7,7 +7,8 @@
 
 - [DEMO LINK](https://andreas-just.github.io/layout_html-form/)
 - [TEST REPORT LINK](https://andreas-just.github.io/layout_html-form/report/html_report/)
-- [PULL REQUEST](https://github.com/mate-academy/layout_html-form/pull/29)
+- [PULL REQUEST 2019](https://github.com/mate-academy/layout_html-form/pull/29)
+- [PULL REQUEST 2020](https://github.com/mate-academy/layout_html-form/pull/318)
 ---
 
 ## Main goal:
