@@ -2,11 +2,12 @@
   margin-bottom: 20px;
 }
 
-.form__inner {
+.form__label {
+  display: block;
   margin-bottom: 10px;
 }
 
-.form__inner:last-child {
+.form__label:last-child {
   margin-bottom: 0;
 }
 
